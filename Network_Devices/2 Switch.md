@@ -13,4 +13,5 @@
 - Core part of most **LAN setups**.
 ## Example
 - If PC1 wants to send data to PC3, the switch checks its MAC table and forwards it **only to PC3**, not to everyone.
-
+## Diagram
+![Switch diagram](../images/Switch-diagram.png)
