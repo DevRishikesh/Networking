@@ -1,5 +1,5 @@
 ## What is a Router?
-A **router** is a network device that connects **different networks together** and routes data from one network to another — usually from your local network (LAN) to the internet (WAN).
+A **router** is a network device that connects **different networks together** and routes data from one network to another usually from your local network (LAN) to the internet (WAN).
 It determines the **best path** for data packets to travel and forwards them accordingly.
 ## How It Works
 - Operates at **Layer 3 (Network Layer)** of the OSI model.
