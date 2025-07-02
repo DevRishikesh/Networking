@@ -1,0 +1,61 @@
+# 🔁 TCP (Transmission Control Protocol)
+
+## 🧾 What is TCP?
+**TCP** is a **connection-oriented** and **reliable** transport protocol used to ensure the accurate delivery of data between devices over a network.
+It is one of the core protocols of the **Transport Layer** in both the **TCP/IP** and **OSI models**.
+---
+## Key Features of TCP
+- **Connection-Oriented**: Establishes a connection before data transfer using a 3-way handshake.
+- **Reliable**: Guarantees delivery of packets in correct order.
+- **Error Checking**: Detects and corrects lost or corrupted data.
+- **Flow Control**: Manages how much data is sent at a time.
+- **Congestion Control**: Adjusts sending rate based on network conditions.
+- **Sequencing**: Data is numbered and reassembled in order.
+---
+## TCP 3-Way Handshake
+The handshake process to establish a connection:
+ ```txt 
+Client             Server
+  |-| ---- SYN ----> |-|
+  | | <--- SYN-ACK --| |
+  |-| ---- ACK ----> |-|
+```
+- **SYN:** Client wants to start a connection.
+- **SYN-ACK:** Server agrees and responds.
+- **ACK:** Client confirms.
+- After this, the connection is established and data can be sent.
+---
+## TCP Segment Structure
+ ```txt
+[Source Port] [Destination Port]
+[Sequence Number] [Acknowledgment Number]
+[Flags: SYN, ACK, FIN, etc.]
+[Window Size]
+[Checksum]
+[Data]
+```
+---
+## Use Cases
+- Web browsing (HTTP/HTTPS)
+- Email services (SMTP, IMAP)
+- File transfers (FTP)
+- Reliable application layer data delivery
+---
+##  TCP Flags Overview
+| Flag	| Description |
+|-------|-------------|
+| SYN	| Initiate connection | 
+| ACK	| Acknowledgment | 
+| FIN	| Terminate connection |
+| RST |	Reset connection |
+| PSH	| Push data to application now |
+| URG	 | Urgent pointer field is valid |
+---
+## TCP Flow Control
+TCP uses Window Size and Acknowledgment Numbers to control how much data can be sent before waiting for an acknowledgment. This avoids overwhelming the receiver.
+---
+## Summary
+- TCP is a reliable, ordered, connection-based protocol.
+- Ensures error free data delivery using the 3-way handshake.
+- Used in most web based applications where accuracy matters.
+- *Think of TCP as the post office with tracking and delivery confirmation, slow but reliable!*
