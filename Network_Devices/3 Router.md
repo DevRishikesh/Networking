@@ -19,5 +19,4 @@ When you open a website, your router:
 1. Sends your request to the ISP.
 2. The ISP routes it to the destination server.
 3. The server responds, and the data returns through the router to your device.
-## Diagram
- ![Router diagram](../images/Router-diagram.png)
+ 
