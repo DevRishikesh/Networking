@@ -1,5 +1,5 @@
 # Router vs Switch vs Hub
-This comparison helps you understand the difference between **Router**, **Switch**, and **Hub** — three essential network devices.
+This comparison helps you understand the difference between **Router**, **Switch**, and **Hub** three essential network devices.
 ## Quick Comparison Table
 | Feature               | Hub                          | Switch                             | Router                              |
 |-----------------------|-------------------------------|-------------------------------------|--------------------------------------|
