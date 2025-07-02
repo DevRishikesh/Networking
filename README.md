@@ -1,43 +1,57 @@
-# 📡 Networking Notes
+# Networking Notes & Cheatsheets
 
-Welcome to my personal repository of networking notes!  
-This repo documents everything I'm learning about computer networks — from the OSI model to real-world protocols and tools.
+Welcome to my **Networking Documentation Repository** built to help you (and me 😎) learn, revise, and master the most important networking concepts in a clean, practical, and well-documented format.
 
----
-
-## 🧠 What You’ll Find Here
-
-This is a **structured and beginner-friendly** learning journal. I’ve organized the content by core networking topics with diagrams, summaries, and cheat sheets.
-
-Each folder contains topic-wise markdown notes and related diagrams.
+Whether you're a beginner, student, or prepping for certifications (like CCNA, CEH, etc.), this repo is a **shortcut to understanding real-world networking**.
 
 ---
 
-## 📈 Why I’m Doing This
+## Repository Structure
 
-I’m learning computer networking to build a solid foundation for systems, cybersecurity, and backend development.  
-This repo serves as both a revision tool and a way to share my journey with others.
-
----
-
-## 💡 How to Use
-
-- Clone or star the repo if you want to follow along.
-- Each `.md` file is standalone — read in any order.
-- Diagrams are included for visual understanding.
+| Folder              | Description                                                |
+|---------------------|------------------------------------------------------------|
+| `TCP_IP_Model/`      | Notes on the TCP/IP model (layers, protocols, etc.)        |
+| `OSI_Model/`         | Notes on the OSI model and how it maps to real networks    |
+| `Network_Devices/`           | Documentation on routers, switches, hubs.            |
+| `Protocols/`         | Detailed breakdown of protocols (HTTP, TCP, UDP, etc.)     |
+| `Cheatsheets/`       | Quick references for ports |
 
 ---
 
-## 🚀 Future Plans
+## Suggested Reading Order
 
-- ✅ Add TCP vs UDP comparison
-- ✅ Include networking commands (ping, netstat, traceroute)
-- ⏳ Subnetting practice problems
-- ⏳ Interactive diagrams using Mermaid or Excalidraw
+1. [OSI Model](./OSI_Model/notes.md)
+2. [TCP/IP Model](./TCP_IP_Model/notes.md)
+3. [Devices (Router, Switch, Hub)](./Devices/)
+4. [Protocols (HTTP, TCP, UDP, FTP...)](./Protocols/)
+5. [Cheatsheets](./Cheatsheets/)
 
 ---
 
-## 🙌 Contributions
+## 🚀 Highlights
+
+- Beginner-friendly explanations
+- Diagrams for visual understanding (Will be added soon)
+- Real-world examples
+- Port numbers, status codes, protocol flags
+ 
+---
+
+## Why I Built This
+
+I made this repo as part of my personal learning journey in computer networks to simplify the concepts I study and share what actually helps in **exams, interviews, and real-life networking tasks**.
+
+> “Learn it. Document it. Share it.”
+
+---
+
+## Tip
+
+> **Star this repo** so you can quickly find it when troubleshooting or revising before exams!
+
+---
+
+## Contributions
 
 I’m open to suggestions or corrections. If you spot something wrong or outdated, feel free to [open an issue](https://github.com/your-username/networking-notes/issues) or a pull request.
 
