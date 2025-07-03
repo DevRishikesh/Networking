@@ -53,7 +53,7 @@ I made this repo as part of my personal learning journey in computer networks to
 
 ## Contributions
 
-I’m open to suggestions or corrections. If you spot something wrong or outdated, feel free to [open an issue](https://github.com/DevRishikesh/networking-notes/issues) or a pull request.
+I’m open to suggestions or corrections. If you spot something wrong or outdated, feel free to [open an issue](https://github.com/DevRishikesh/networking/issues) or a pull request.
 
 ---
 
