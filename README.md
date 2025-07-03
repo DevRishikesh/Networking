@@ -20,7 +20,7 @@ Whether you're a beginner, student, or prepping for certifications (like CCNA, C
 
 ## Suggested Reading Order
 
-1. [OSI Model](./OSI_Model/notes.md)
+1. [OSI Model](./OSI_Model/)
 2. [TCP/IP Model](./TCP_IP_Model/notes.md)
 3. [Devices (Router, Switch, Hub)](./Network_Devices/)
 4. [Protocols (HTTP, TCP, UDP, FTP...)](./Protocols/)
