@@ -76,11 +76,6 @@ The **OSI model** is a conceptual framework that standardizes the functions of a
 
 ---
 
-## Diagram
-![OSI Model Diagram](../images/osi-model-diagram.png)
-
----
-
 ## Summary
 
 - The OSI model has **7 layers**, each with a specific function.
