@@ -68,11 +68,6 @@ It describes how data is packaged, transmitted, and received across networks.
 
 ---
 
-## Diagram
-
-
----
-
 ## Summary
 
 - The **TCP/IP model** is the basis of internet communication.
